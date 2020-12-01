@@ -1,5 +1,5 @@
-@prefix : <http://linked.data.gov.au/def/phs/voc/obsMethods#> .
-@prefix obs: <http://linked.data.gov.au/def/phs/voc/obsMethods> .
+@prefix : <http://linked.data.gov.au/def/phs/voc/obsMethodsHash#> .
+@prefix obs: <http://linked.data.gov.au/def/phs/voc/obsMethodsHash> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
@@ -14,13 +14,13 @@
 obs:
     a owl:Ontology , skos:ConceptScheme ;
     dcterms:contributor <http://orcid.org/0000-0002-8742-7730> ;
-    dcterms:created "2020-05-22"^^xsd:date ;
+    dcterms:created "2020-05-23"^^xsd:date ;
     dcterms:creator phs:stephen ;
-    dcterms:modified "2020-05-22"^^xsd:date ;
+    dcterms:modified "2020-05-23"^^xsd:date ;
     dcterms:publisher <http://linked.data.gov.au/org/dawe> ;
     skos:definition "Types of methods used to capture animals"@en ;
     skos:prefLabel "Capturing Method Types Hash"@en ;
-    owl:versionIRI <http://linked.data.gov.au/def/phs/voc/obsMethods/1.0> ;
+    owl:versionIRI <http://linked.data.gov.au/def/phs/voc/obsMethodsHash/1.0> ;
     skos:hasTopConcept 
         :beating-tray , 
         :brush-and-vacuum ,
